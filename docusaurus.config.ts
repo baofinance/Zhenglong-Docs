@@ -2,6 +2,9 @@ import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
+// Determine if we're in staging environment
+const isStaging = process.env.STAGING === "true";
+
 const config: Config = {
   title: "Zhenglong",
   tagline:
@@ -9,15 +12,17 @@ const config: Config = {
   favicon: "./logo.svg",
 
   // Set the production url of your site here
-  url: "https://docs.zhenglong.finance",
+  url: isStaging
+    ? "https://staging.docs.zhenglong.finance"
+    : "https://docs.zhenglong.finance",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "zhenglong-protocol", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  organizationName: "baofinance", // Usually your GitHub org/user name.
+  projectName: "Zhenglong-Docs", // Usually your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -40,7 +45,7 @@ const config: Config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/zhenglong-protocol/docs/tree/main/",
+          editUrl: "https://github.com/baofinance/Zhenglong-Docs/tree/main/",
         },
         blog: false,
         theme: {
@@ -60,7 +65,7 @@ const config: Config = {
     image: "./img/docusaurus-social-card.jpg",
     favicon: "./logo.svg",
     navbar: {
-      title: "Zhenglong",
+      title: isStaging ? "Zhenglong (Staging)" : "Zhenglong",
       logo: {
         alt: "Zhenglong Logo",
         src: "./logo.svg",
@@ -76,7 +81,7 @@ const config: Config = {
           label: "Documentation",
         },
         {
-          href: "https://github.com/zhenglong-protocol",
+          href: "https://github.com/baofinance/Zhenglong-Docs",
           label: "GitHub",
           position: "right",
         },
@@ -124,7 +129,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/zhenglong-protocol",
+              href: "https://github.com/baofinance/Zhenglong-Docs",
             },
           ],
         },
@@ -133,7 +138,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/zhenglong-protocol",
+              href: "https://github.com/baofinance/Zhenglong-Docs",
             },
           ],
         },
