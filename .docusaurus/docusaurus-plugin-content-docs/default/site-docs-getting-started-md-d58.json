@@ -1,0 +1,27 @@
+{
+  "id": "getting-started",
+  "title": "Getting Started",
+  "description": "This guide will help you get started with Zhenglong. Learn how to connect your wallet, understand the basics, and start using the protocol.",
+  "source": "@site/docs/getting-started.md",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/getting-started.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to Zhenglong",
+    "permalink": "/"
+  },
+  "next": {
+    "title": "Technical Overview",
+    "permalink": "/technical-overview"
+  }
+}

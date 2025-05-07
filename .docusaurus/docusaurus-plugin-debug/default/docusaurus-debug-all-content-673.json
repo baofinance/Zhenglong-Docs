@@ -1,0 +1,461 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs",
+          "editUrlLocalized": "https://github.com/zhenglong-protocol/docs/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/andrewyoung/Documents/BaoGit/Zhenglong/docs/sidebars.ts",
+          "contentPath": "/Users/andrewyoung/Documents/BaoGit/Zhenglong/docs/docs",
+          "contentPathLocalized": "/Users/andrewyoung/Documents/BaoGit/Zhenglong/docs/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "id": "api",
+              "title": "API Reference",
+              "description": "This document provides detailed information about the Zhenglong Protocol's smart contract interfaces and functions.",
+              "source": "@site/docs/api.md",
+              "sourceDirName": ".",
+              "slug": "/api",
+              "permalink": "/api",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/api.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "STEAM Token",
+                "permalink": "/steam-token"
+              },
+              "next": {
+                "title": "Frequently Asked Questions",
+                "permalink": "/faq"
+              }
+            },
+            {
+              "id": "architecture",
+              "title": "Architecture Overview",
+              "description": "Zhenglong Protocol is built on a robust and secure architecture that enables the creation and management of synthetic assets. This document provides a high-level overview of the protocol's architecture.",
+              "source": "@site/docs/architecture.md",
+              "sourceDirName": ".",
+              "slug": "/architecture",
+              "permalink": "/architecture",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/architecture.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Technical Overview",
+                "permalink": "/technical-overview"
+              },
+              "next": {
+                "title": "Risk Considerations",
+                "permalink": "/risk-considerations"
+              }
+            },
+            {
+              "id": "coming-next",
+              "title": "Coming Next",
+              "description": "Zhenglong has an ambitious roadmap for expanding and enhancing the protocol's capabilities. Here's what's coming next:",
+              "source": "@site/docs/coming-next.md",
+              "sourceDirName": ".",
+              "slug": "/coming-next",
+              "permalink": "/coming-next",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/coming-next.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              }
+            },
+            {
+              "id": "faq",
+              "title": "Frequently Asked Questions",
+              "description": "Find answers to common questions about the Zhenglong Protocol.",
+              "source": "@site/docs/faq.md",
+              "sourceDirName": ".",
+              "slug": "/faq",
+              "permalink": "/faq",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/faq.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "API Reference",
+                "permalink": "/api"
+              },
+              "next": {
+                "title": "Roadmap",
+                "permalink": "/roadmap"
+              }
+            },
+            {
+              "id": "genesis-vaults",
+              "title": "Genesis Vaults",
+              "description": "To launch new markets efficiently and fairly, Zhenglong uses Genesis Vaults — time-limited vaults that bootstrap liquidity, collateral backing, and community participation from day one.",
+              "source": "@site/docs/genesis-vaults.md",
+              "sourceDirName": ".",
+              "slug": "/genesis-vaults",
+              "permalink": "/genesis-vaults",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/genesis-vaults.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Stability Pools",
+                "permalink": "/stability-pools"
+              },
+              "next": {
+                "title": "Trading Guide",
+                "permalink": "/trading"
+              }
+            },
+            {
+              "id": "getting-started",
+              "title": "Getting Started",
+              "description": "This guide will help you get started with Zhenglong. Learn how to connect your wallet, understand the basics, and start using the protocol.",
+              "source": "@site/docs/getting-started.md",
+              "sourceDirName": ".",
+              "slug": "/getting-started",
+              "permalink": "/getting-started",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/getting-started.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Welcome to Zhenglong",
+                "permalink": "/"
+              },
+              "next": {
+                "title": "Technical Overview",
+                "permalink": "/technical-overview"
+              }
+            },
+            {
+              "id": "index",
+              "title": "Welcome to Zhenglong",
+              "description": "Welcome to the official documentation for Zhenglong - a decentralized platform for creating and trading synthetic assets.",
+              "source": "@site/docs/index.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/index.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "next": {
+                "title": "Getting Started",
+                "permalink": "/getting-started"
+              }
+            },
+            {
+              "id": "risk-considerations",
+              "title": "Risk Considerations",
+              "description": "While Zhenglong is designed with security as a top priority, it's important for users to understand the potential risks involved. This document outlines the key risks to be aware of when interacting with the protocol.",
+              "source": "@site/docs/risk-considerations.md",
+              "sourceDirName": ".",
+              "slug": "/risk-considerations",
+              "permalink": "/risk-considerations",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/risk-considerations.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Architecture Overview",
+                "permalink": "/architecture"
+              },
+              "next": {
+                "title": "Stability Pools",
+                "permalink": "/stability-pools"
+              }
+            },
+            {
+              "id": "roadmap",
+              "title": "Roadmap",
+              "description": "Zhenglong is a modular synthetic asset protocol with long-term ambitions to become the default infrastructure for tokenizing and trading any market data. The roadmap below outlines the key phases of protocol development, expansion, and innovation.",
+              "source": "@site/docs/roadmap.md",
+              "sourceDirName": ".",
+              "slug": "/roadmap",
+              "permalink": "/roadmap",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/roadmap.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "sidebar_position": 9
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Frequently Asked Questions",
+                "permalink": "/faq"
+              }
+            },
+            {
+              "id": "stability-pools",
+              "title": "Stability Pools",
+              "description": "Stability Pools are a core mechanism in Zhenglong that provides security, yield generation, and automated rebalancing capabilities.",
+              "source": "@site/docs/stability-pools.md",
+              "sourceDirName": ".",
+              "slug": "/stability-pools",
+              "permalink": "/stability-pools",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/stability-pools.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Risk Considerations",
+                "permalink": "/risk-considerations"
+              },
+              "next": {
+                "title": "Genesis Vaults",
+                "permalink": "/genesis-vaults"
+              }
+            },
+            {
+              "id": "steam-token",
+              "title": "STEAM Token",
+              "description": "STEAM is the native governance, incentive, and revenue-sharing token of the Zhenglong ecosystem. It plays a central role in coordinating the protocol's growth, securing market health, and rewarding community participation.",
+              "source": "@site/docs/steam-token.md",
+              "sourceDirName": ".",
+              "slug": "/steam-token",
+              "permalink": "/steam-token",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/steam-token.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Trading Guide",
+                "permalink": "/trading"
+              },
+              "next": {
+                "title": "API Reference",
+                "permalink": "/api"
+              }
+            },
+            {
+              "id": "technical-overview",
+              "title": "Technical Overview",
+              "description": "Core Mechanics",
+              "source": "@site/docs/technical-overview.md",
+              "sourceDirName": ".",
+              "slug": "/technical-overview",
+              "permalink": "/technical-overview",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/technical-overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Getting Started",
+                "permalink": "/getting-started"
+              },
+              "next": {
+                "title": "Architecture Overview",
+                "permalink": "/architecture"
+              }
+            },
+            {
+              "id": "trading",
+              "title": "Trading Guide",
+              "description": "Learn how to trade ZHE and STEAMED tokens on the Zhenglong platform.",
+              "source": "@site/docs/trading.md",
+              "sourceDirName": ".",
+              "slug": "/trading",
+              "permalink": "/trading",
+              "draft": false,
+              "unlisted": false,
+              "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/trading.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Genesis Vaults",
+                "permalink": "/genesis-vaults"
+              },
+              "next": {
+                "title": "STEAM Token",
+                "permalink": "/steam-token"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "tutorialSidebar": [
+              {
+                "type": "category",
+                "label": "Introduction",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "index"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "getting-started"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Protocol",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "technical-overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "architecture"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "risk-considerations"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Core Features",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "stability-pools"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "genesis-vaults"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "trading"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Governance",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "steam-token"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              },
+              {
+                "type": "category",
+                "label": "Reference",
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "api"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "faq"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "roadmap"
+                  }
+                ],
+                "collapsed": true,
+                "collapsible": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

@@ -1,0 +1,27 @@
+{
+  "id": "steam-token",
+  "title": "STEAM Token",
+  "description": "STEAM is the native governance, incentive, and revenue-sharing token of the Zhenglong ecosystem. It plays a central role in coordinating the protocol's growth, securing market health, and rewarding community participation.",
+  "source": "@site/docs/steam-token.md",
+  "sourceDirName": ".",
+  "slug": "/steam-token",
+  "permalink": "/steam-token",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/steam-token.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Trading Guide",
+    "permalink": "/trading"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/api"
+  }
+}

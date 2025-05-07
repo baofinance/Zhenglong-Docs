@@ -1,0 +1,92 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "index",
+          "docs": [
+            {
+              "id": "api",
+              "path": "/api",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "architecture",
+              "path": "/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "coming-next",
+              "path": "/coming-next"
+            },
+            {
+              "id": "faq",
+              "path": "/faq",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "genesis-vaults",
+              "path": "/genesis-vaults",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "index",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "risk-considerations",
+              "path": "/risk-considerations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "roadmap",
+              "path": "/roadmap",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "stability-pools",
+              "path": "/stability-pools",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "steam-token",
+              "path": "/steam-token",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "technical-overview",
+              "path": "/technical-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "trading",
+              "path": "/trading",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "index"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

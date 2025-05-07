@@ -1,0 +1,23 @@
+{
+  "id": "index",
+  "title": "Welcome to Zhenglong",
+  "description": "Welcome to the official documentation for Zhenglong - a decentralized platform for creating and trading synthetic assets.",
+  "source": "@site/docs/index.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/getting-started"
+  }
+}

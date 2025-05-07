@@ -1,0 +1,27 @@
+{
+  "id": "meta-governance",
+  "title": "Meta-Governance via Bao",
+  "description": "Zhenglong Protocol features a unique meta-governance layer through integration with Bao Protocol, creating a sustainable and community-driven ecosystem.",
+  "source": "@site/docs/meta-governance.md",
+  "sourceDirName": ".",
+  "slug": "/meta-governance",
+  "permalink": "/meta-governance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/meta-governance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "STEAM Token",
+    "permalink": "/steam-token"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/api"
+  }
+}

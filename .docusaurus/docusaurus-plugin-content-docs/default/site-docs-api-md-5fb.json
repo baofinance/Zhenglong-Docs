@@ -1,0 +1,27 @@
+{
+  "id": "api",
+  "title": "API Reference",
+  "description": "This document provides detailed information about the Zhenglong Protocol's smart contract interfaces and functions.",
+  "source": "@site/docs/api.md",
+  "sourceDirName": ".",
+  "slug": "/api",
+  "permalink": "/api",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "STEAM Token",
+    "permalink": "/steam-token"
+  },
+  "next": {
+    "title": "Frequently Asked Questions",
+    "permalink": "/faq"
+  }
+}

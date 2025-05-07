@@ -1,0 +1,27 @@
+{
+  "id": "technical-overview",
+  "title": "Technical Overview",
+  "description": "Core Mechanics",
+  "source": "@site/docs/technical-overview.md",
+  "sourceDirName": ".",
+  "slug": "/technical-overview",
+  "permalink": "/technical-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/technical-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/getting-started"
+  },
+  "next": {
+    "title": "Architecture Overview",
+    "permalink": "/architecture"
+  }
+}
