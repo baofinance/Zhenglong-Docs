@@ -12,8 +12,7 @@
           "docs": [
             {
               "id": "api",
-              "path": "/api",
-              "sidebar": "tutorialSidebar"
+              "path": "/api"
             },
             {
               "id": "architecture",
@@ -30,14 +29,17 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "fees",
+              "path": "/fees"
+            },
+            {
               "id": "genesis-vaults",
               "path": "/genesis-vaults",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "getting-started",
-              "path": "/getting-started",
-              "sidebar": "tutorialSidebar"
+              "path": "/getting-started"
             },
             {
               "id": "index",
@@ -61,7 +63,26 @@
             },
             {
               "id": "steam-token",
-              "path": "/steam-token",
+              "path": "/steam-token"
+            },
+            {
+              "id": "steam-token/earning",
+              "path": "/steam-token/earning",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "steam-token/governance",
+              "path": "/steam-token/governance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "steam-token/overview",
+              "path": "/steam-token/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "steam-token/tokenomics",
+              "path": "/steam-token/tokenomics",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -70,8 +91,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "trading",
-              "path": "/trading",
+              "id": "yield",
+              "path": "/yield",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -80,7 +101,7 @@
             "tutorialSidebar": {
               "link": {
                 "path": "/",
-                "label": "index"
+                "label": "Intro"
               }
             }
           }

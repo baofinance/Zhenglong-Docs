@@ -9,8 +9,8 @@ export default {
   "favicon": "./logo.svg",
   "url": "https://docs.zhenglong.finance",
   "baseUrl": "/",
-  "organizationName": "zhenglong-protocol",
-  "projectName": "docs",
+  "organizationName": "baofinance",
+  "projectName": "Zhenglong-Docs",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {

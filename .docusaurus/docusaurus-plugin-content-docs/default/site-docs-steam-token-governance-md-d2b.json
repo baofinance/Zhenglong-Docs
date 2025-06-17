@@ -1,0 +1,27 @@
+{
+  "id": "steam-token/governance",
+  "title": "Governance & veSTEAM",
+  "description": "Token Utilities",
+  "source": "@site/docs/steam-token/governance.md",
+  "sourceDirName": "steam-token",
+  "slug": "/steam-token/governance",
+  "permalink": "/steam-token/governance",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/steam-token/governance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "STEAM Token Overview",
+    "permalink": "/steam-token/overview"
+  },
+  "next": {
+    "title": "STEAM Tokenomics",
+    "permalink": "/steam-token/tokenomics"
+  }
+}

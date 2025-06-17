@@ -14,14 +14,5 @@
   "sidebarPosition": 5,
   "frontMatter": {
     "sidebar_position": 5
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "STEAM Token",
-    "permalink": "/steam-token"
-  },
-  "next": {
-    "title": "Frequently Asked Questions",
-    "permalink": "/faq"
   }
 }

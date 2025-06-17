@@ -4,21 +4,20 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/',
-    component: ComponentCreator('/', '336'),
+    component: ComponentCreator('/', '92f'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', 'a8c'),
+        component: ComponentCreator('/', 'a07'),
         routes: [
           {
             path: '/',
-            component: ComponentCreator('/', '339'),
+            component: ComponentCreator('/', 'a5c'),
             routes: [
               {
                 path: '/api',
-                component: ComponentCreator('/api', '652'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/api', 'ba9'),
+                exact: true
               },
               {
                 path: '/architecture',
@@ -38,6 +37,11 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/fees',
+                component: ComponentCreator('/fees', '053'),
+                exact: true
+              },
+              {
                 path: '/genesis-vaults',
                 component: ComponentCreator('/genesis-vaults', 'daf'),
                 exact: true,
@@ -45,9 +49,8 @@ export default [
               },
               {
                 path: '/getting-started',
-                component: ComponentCreator('/getting-started', '23e'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/getting-started', 'e0c'),
+                exact: true
               },
               {
                 path: '/risk-considerations',
@@ -69,7 +72,30 @@ export default [
               },
               {
                 path: '/steam-token',
-                component: ComponentCreator('/steam-token', '96e'),
+                component: ComponentCreator('/steam-token', '4ce'),
+                exact: true
+              },
+              {
+                path: '/steam-token/earning',
+                component: ComponentCreator('/steam-token/earning', '51f'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/steam-token/governance',
+                component: ComponentCreator('/steam-token/governance', '14d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/steam-token/overview',
+                component: ComponentCreator('/steam-token/overview', '80e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/steam-token/tokenomics',
+                component: ComponentCreator('/steam-token/tokenomics', '4d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -80,8 +106,8 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/trading',
-                component: ComponentCreator('/trading', '83c'),
+                path: '/yield',
+                component: ComponentCreator('/yield', '3b6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

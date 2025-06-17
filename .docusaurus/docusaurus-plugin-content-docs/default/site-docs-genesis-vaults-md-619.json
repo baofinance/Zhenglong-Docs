@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Stability Pools",
-    "permalink": "/stability-pools"
+    "title": "How Yield is Generated",
+    "permalink": "/yield"
   },
   "next": {
-    "title": "Trading Guide",
-    "permalink": "/trading"
+    "title": "STEAM Token Overview",
+    "permalink": "/steam-token/overview"
   }
 }

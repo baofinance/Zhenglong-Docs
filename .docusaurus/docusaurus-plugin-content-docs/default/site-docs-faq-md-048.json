@@ -1,7 +1,7 @@
 {
   "id": "faq",
-  "title": "Frequently Asked Questions",
-  "description": "Find answers to common questions about the Zhenglong Protocol.",
+  "title": "FAQ",
+  "description": "Zhenglong: Supercharged Yield. Smarter Leverage. Fully Steamed.",
   "source": "@site/docs/faq.md",
   "sourceDirName": ".",
   "slug": "/faq",
@@ -11,14 +11,14 @@
   "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/faq.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 6,
+  "sidebarPosition": 7,
   "frontMatter": {
-    "sidebar_position": 6
+    "sidebar_position": 7
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "API Reference",
-    "permalink": "/api"
+    "title": "Earning STEAM",
+    "permalink": "/steam-token/earning"
   },
   "next": {
     "title": "Roadmap",

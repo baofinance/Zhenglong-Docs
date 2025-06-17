@@ -1,7 +1,7 @@
 {
   "id": "getting-started",
-  "title": "Getting Started",
-  "description": "This guide will help you get started with Zhenglong. Learn how to connect your wallet, understand the basics, and start using the protocol.",
+  "title": "Quick Start",
+  "description": "Get started with Zhenglong in just a few steps. Connect your wallet, choose your strategy, and start earning supercharged yield!",
   "source": "@site/docs/getting-started.md",
   "sourceDirName": ".",
   "slug": "/getting-started",
@@ -14,14 +14,5 @@
   "sidebarPosition": 2,
   "frontMatter": {
     "sidebar_position": 2
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Welcome to Zhenglong",
-    "permalink": "/"
-  },
-  "next": {
-    "title": "Technical Overview",
-    "permalink": "/technical-overview"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "steam-token/overview",
+  "title": "STEAM Token Overview",
+  "description": "STEAM is the native governance, incentive, and revenue-sharing token of the Zhenglong ecosystem. It plays a central role in coordinating the protocol's growth, securing market health, and rewarding community participation.",
+  "source": "@site/docs/steam-token/overview.md",
+  "sourceDirName": "steam-token",
+  "slug": "/steam-token/overview",
+  "permalink": "/steam-token/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/steam-token/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Genesis Vaults",
+    "permalink": "/genesis-vaults"
+  },
+  "next": {
+    "title": "Governance & veSTEAM",
+    "permalink": "/steam-token/governance"
+  }
+}

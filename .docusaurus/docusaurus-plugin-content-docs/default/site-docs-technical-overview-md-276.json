@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Getting Started",
-    "permalink": "/getting-started"
+    "title": "Intro",
+    "permalink": "/"
   },
   "next": {
     "title": "Architecture Overview",

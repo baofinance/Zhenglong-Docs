@@ -1,0 +1,27 @@
+{
+  "id": "steam-token/tokenomics",
+  "title": "STEAM Tokenomics",
+  "description": "Zhenglong is built to reward long-term participation, decentralize governance, and create sustainable liquidity incentives. All token allocations are transparently structured and time-released.",
+  "source": "@site/docs/steam-token/tokenomics.md",
+  "sourceDirName": "steam-token",
+  "slug": "/steam-token/tokenomics",
+  "permalink": "/steam-token/tokenomics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/steam-token/tokenomics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Governance & veSTEAM",
+    "permalink": "/steam-token/governance"
+  },
+  "next": {
+    "title": "Earning STEAM",
+    "permalink": "/steam-token/earning"
+  }
+}

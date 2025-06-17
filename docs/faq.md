@@ -1,6 +1,10 @@
 ---
-sidebar_position: 6
+sidebar_position: 7
 ---
+
+# FAQ
+
+Zhenglong: Supercharged Yield. Smarter Leverage. Fully Steamed.
 
 # Frequently Asked Questions
 

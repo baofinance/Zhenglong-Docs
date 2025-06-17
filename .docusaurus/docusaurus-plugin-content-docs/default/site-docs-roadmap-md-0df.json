@@ -1,7 +1,7 @@
 {
   "id": "roadmap",
   "title": "Roadmap",
-  "description": "Zhenglong is a modular synthetic asset protocol with long-term ambitions to become the default infrastructure for tokenizing and trading any market data. The roadmap below outlines the key phases of protocol development, expansion, and innovation.",
+  "description": "Zhenglong: Supercharged Yield. Smarter Leverage. Fully Steamed.",
   "source": "@site/docs/roadmap.md",
   "sourceDirName": ".",
   "slug": "/roadmap",
@@ -11,13 +11,13 @@
   "editUrl": "https://github.com/zhenglong-protocol/docs/tree/main/docs/roadmap.md",
   "tags": [],
   "version": "current",
-  "sidebarPosition": 9,
+  "sidebarPosition": 8,
   "frontMatter": {
-    "sidebar_position": 9
+    "sidebar_position": 8
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Frequently Asked Questions",
+    "title": "FAQ",
     "permalink": "/faq"
   }
 }

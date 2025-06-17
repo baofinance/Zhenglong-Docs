@@ -1,7 +1,7 @@
 {
   "id": "index",
-  "title": "Welcome to Zhenglong",
-  "description": "Welcome to the official documentation for Zhenglong - a decentralized platform for creating and trading synthetic assets.",
+  "title": "Supercharged Yield. Smarter Leverage.",
+  "description": "Let's be real: synthetic assets sound powerful. But most of them? Clunky, brittle, overly complicated — and definitely not paying your bills.",
   "source": "@site/docs/index.md",
   "sourceDirName": ".",
   "slug": "/",
@@ -17,7 +17,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Getting Started",
-    "permalink": "/getting-started"
+    "title": "Technical Overview",
+    "permalink": "/technical-overview"
   }
 }

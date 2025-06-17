@@ -2,6 +2,28 @@
 sidebar_position: 2
 ---
 
+# Quick Start
+
+Get started with Zhenglong in just a few steps. Connect your wallet, choose your strategy, and start earning supercharged yield!
+
+## 1. Connect Your Wallet
+
+- Visit [app.zhenglong.xyz](https://app.zhenglong.xyz)
+- Connect your Web3 wallet (MetaMask, WalletConnect, etc.)
+
+## 2. Choose Your Strategy
+
+- Deposit into stability pools for yield and protocol security
+- Mint or trade zheTOKENS for stable 1:1 exposure
+- Acquire steamedTOKENS for rebalancing leveraged exposure without liquidation risk
+- Participate in Genesis Vaults to bootstrap new markets
+
+## 3. Start Earning
+
+- Earn yield from collateral in stability pools
+- Receive STEAM rewards for protocol participation
+- Lock STEAM for veSTEAM to boost rewards and participate in governance
+
 # Getting Started
 
 This guide will help you get started with Zhenglong. Learn how to connect your wallet, understand the basics, and start using the protocol.
@@ -78,8 +100,7 @@ The app is divided into several main sections:
 
 - Read the [Architecture](/architecture) guide to understand how the protocol works
 - Learn about [Stability Pools](/stability-pools) for yield generation
-- Check out the [Trading](/trading) guide for advanced strategies
-- Review the [API Reference](/api) for technical details
+- Check out the [API Reference](/api) for technical details
 - Visit the [FAQ](/faq) for common questions
 
 ## Need Help?

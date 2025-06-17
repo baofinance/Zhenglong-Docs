@@ -63,63 +63,74 @@ The longer the STEAM is locked, the more veSTEAM is received, and the greater th
 - **Decaying Locks**: Lock time gradually decreases over time unless renewed
 - **Alignment Incentives**: Users who lock STEAM align their interests with the long-term health and growth of Zhenglong
 
-### veSTEAM Lock Duration Chart
+### veSTEAM Lock Duration
 
-```
-veSTEAM per STEAM
-1.0 |                *
-    |              *
-0.8 |            *
-    |          *
-    |        *
-0.6 |      *
-    |    *
-    |  *
-0.4 |*
-    |  *
-    |    *
-0.2 |      *
-    |        *
-    |          *
-0.0 +---------------
-    0  3  6  9  12
-       Lock Duration (months)
-```
-
-As shown in the chart, the relationship between lock duration and veSTEAM received is directly proportional. Locking for the maximum duration of 12 months provides the maximum benefit of 1 veSTEAM per STEAM locked.
+The relationship between lock duration and veSTEAM received is directly proportional. Locking for the maximum duration of 12 months provides the maximum benefit of 1 veSTEAM per STEAM locked.
 
 ## Tokenomics
 
-The **STEAM token** is designed to align incentives across all participants while promoting long-term sustainability and responsible growth.
+Zhenglong is built to reward long-term participation, decentralize governance, and create sustainable liquidity incentives. All token allocations are transparently structured and time-released.
 
-### Supply and Emission
+**Total Supply:** 100,000,000 $STEAM
 
-- **Total Supply**: 100,000,000 STEAM tokens will ever exist
-- **Emission Schedule**: Designed to last over 100 years, ensuring slow, controlled release
-- **Sustainable Distribution**: Gradual emission prevents short-term mercenary behavior
-- **No Hidden Unlocks**: Transparent vesting schedules for all allocations
+| Category                  | Allocation | Vesting / Notes                                                                                         |
+| ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------- |
+| 🏦 Bao Treasury           | 25%        | Vested linearly over 24 months. Max locked as veSTEAM.                                                  |
+| 📦 Treasury Reserve       | 10%        | Vested linearly over 12 months. Protocol-controlled.                                                    |
+| 🤝 FX Protocol Allocation | 3%         | Vested linearly over 12 months. Max locked as veSTEAM.                                                  |
+| 🚀 IDO                    | 6%         | Fully liquid at TGE, distributed via community + public rounds.                                         |
+| 💧 Initial Liquidity      | 1%         | Deployed immediately on launch.                                                                         |
+| 🌱 Genesis Contributors   | 2%         | Rewards for initial liquidity providers.                                                                |
+| 📣 Booster Program        | 3%         | Distributed over 3 years (0.27% TGE, 1% Y1, 1% Y2, 0.73% Y3).                                           |
+| 🧑‍💻 Founders               | 6%         | Vested linearly over 24 months.                                                                         |
+| 🌊 Protocol Incentives    | 39%        | 5M tokens distributed linearly in Year 1, then decaying 12.9% per year after. 100+ years to fully emit. |
+| 🎁 veBAO Airdrops         | 5%         | 500k tokens in Year 1, decreasing 10% annually. Similar schedule to protocol incentives                 |
 
-### Token Allocation
+---
 
-| **Allocation**            | **Percentage** | **Purpose**                                                       |
-| ------------------------- | -------------- | ----------------------------------------------------------------- |
-| **Bao Treasury**          | **25%**        | Permanently locked as veSTEAM; controlled by veBAO governance     |
-| **Initial Liquidity**     | **1%**         | Combined with IDO funds to seed initial DEX liquidity pools       |
-| **Aladdin DAO**           | **3%**         | Incentives for technical collaboration and strategic alignment    |
-| **Treasury Reserve**      | **10%**        | Reserved for future initiatives, including new market launches    |
-| **Initial Dex Offering**  | **6%**         | Fundraising for audits, protocol-owned liquidity, and development |
-| **Genesis Participation** | **2%**         | Distributed to participants who help bootstrap the first markets  |
-| **Community Boosters**    | **3%**         | Allocated to reward marketing, content creation, and engagement   |
-| **Founders/Contributors** | **6%**         | Allocated to key early builders, subject to vesting               |
-| **Protocol Incentives**   | **39%**        | Distributed to Stability Pools, LPs, and lending incentives       |
-| **veBAO Holders**         | **5%**         | Distributed through ongoing airdrops to veBAO lockers             |
+## 🔒 Locked Governance Supply
 
-### Emission Design
+The Bao Treasury and FX Protocol Allocation are both committed to permanent max lock as veSTEAM once vested.
 
-- **100-Year Emission Curve**: STEAM is emitted slowly over a century-long curve, ensuring sustainable incentives that favor long-term participants rather than short-term speculators
-- **Gauge Voting and Flexibility**: veSTEAM governance can dynamically adjust where emissions flow — e.g., boosting new Stability Pools, rewarding liquidity providers, or incentivizing new collateral markets
-- **Sustainable Incentive Structures**: Emissions are designed to match protocol growth, TVL expansion, and real market demand, rather than front-loading which often leads to collapse after initial hype
-- **Transparent Vesting**: Founder allocations and other reserves vest gradually over time. All allocations except initial dex liquidity, IDO, Genesis and Treasury Reserves are vested in line with emissions. For example, Founders allocation will take the full 100 years to fully vest.
+These make up a minimum of **28% of the token supply** that is guaranteed to be locked and actively contributing to protocol governance and emission direction.
+
+_On the chart, this is shown as an overlay line labeled:_
+
+> 🟢 Minimum locked as veSTEAM (Bao + FX Protocol)
+
+---
+
+## 📉 Emissions Logic
+
+**Protocol Incentives (39%)**
+
+- Year 1: 5,000,000 tokens emitted linearly
+- Following years: each emits 12.9% less than the year before
+- Modeled after Curve's emissions: decaying emissions with a long tail
+- Emission lifespan: 100+ years
+
+**veBAO Airdrops (5%)**
+
+- Year 1: 500,000 tokens (linear)
+- Each subsequent year emits 10% less than the year before
+- Also spans 100+ years
+- Designed to reward long-term aligned governance holders
+
+---
+
+## 📊 STEAM 5 Year Emissions
+
+This chart shows:
+
+- 📦 Cumulative token release over the first 5 years
+- 🟩 Stacked areas for each allocation category
+- 🔒 An overlay line for the minimum number of max-locked veSTEAM tokens from the Bao and FX Protocol allocations
+
+The categories with immediate or early liquidity — IDO, Initial Liquidity, and Genesis — appear at the base for clarity.
+
+_All values are linear unless stated otherwise. No cliffs. No surprise unlocks._
+
+![STEAM 5 Year Emissions](./img/tokenomics-cumulative-allocation.png)
 
 ## Earning STEAM
 
@@ -148,6 +159,7 @@ Users can earn STEAM through various protocol activities:
    - Vote on emissions and gauges
    - Direct protocol development
    - Participate in governance forums
+   - Earn revenue
 
 ✅ **Decentralized Ownership**: Broad distribution across participants, governance, and builders
 

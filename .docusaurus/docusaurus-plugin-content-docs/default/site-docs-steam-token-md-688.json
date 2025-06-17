@@ -14,14 +14,5 @@
   "sidebarPosition": 6,
   "frontMatter": {
     "sidebar_position": 6
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Trading Guide",
-    "permalink": "/trading"
-  },
-  "next": {
-    "title": "API Reference",
-    "permalink": "/api"
   }
 }

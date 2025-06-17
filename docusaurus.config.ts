@@ -16,8 +16,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "zhenglong-protocol", // Usually your GitHub org/user name.
-  projectName: "docs", // Usually your repo name.
+  organizationName: "baofinance", // Your GitHub org/user name.
+  projectName: "Zhenglong-Docs", // Your repo name.
 
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",

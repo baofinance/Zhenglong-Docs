@@ -1,24 +1,26 @@
 ---
-sidebar_position: 9
+sidebar_position: 8
 ---
 
 # Roadmap
 
+Zhenglong: Supercharged Yield. Smarter Leverage. Fully Steamed.
+
 Zhenglong is a modular synthetic asset protocol with long-term ambitions to become the **default infrastructure for tokenizing and trading any market data**. The roadmap below outlines the key phases of protocol development, expansion, and innovation.
 
-> **Note on Adaptability**: The crypto industry moves rapidly, with new technologies, market conditions, and opportunities emerging constantly. While this roadmap represents our current vision and strategic direction, we are committed to adapting and evolving our plans as the landscape changes. The phases and priorities outlined below will be regularly reassessed and may be modified to respond to industry developments, community feedback, and technological advancements. This adaptability ensures Zhenglong remains at the forefront of innovation while delivering the most value to its users and the broader ecosystem.
+> **Note on Adaptability**: The crypto industry moves rapidly, with new technologies, market conditions, and opportunities emerging constantly. While this roadmap represents our current vision and strategic direction, we are committed to adapting and evolving our plans as the landscape changes.
 
 ## 1. Mainnet Launch of Core Infrastructure (Short Term)
 
-Zhenglong will launch on Ethereum mainnet with:
+Zhenglong will launch on Ethereum mainnet as a **friendly fork of fx protocol**, leveraging their high-yield **fxSAVE** collateral and composable infrastructure.
 
 - Deployment of core contracts (minter, stability pools, rebalance logic)
-- Genesis Vault for zheUSD + steamedETH using wstETH collateral
+- Genesis Vault for **zheBTC** and **zheETH** using **fxSAVE** and wstETH as collateral
 - Deployment of initial AMM liquidity pools
 - STEAM emissions and staking logic activated
 - Security audit publication and protocol UI live
 
-This lays the foundation for rapid synthetic asset creation and incentive-driven usage.
+This lays the foundation for rapid synthetic asset creation and incentive-driven usage, with an initial focus on high-yield BTC and ETH exposure.
 
 ### Token Launch
 
@@ -30,9 +32,8 @@ This lays the foundation for rapid synthetic asset creation and incentive-driven
 ### Initial Markets
 
 - Deploy contracts
-- Launch zheUSD and steamedETH with wstETH collateral
+- Launch **zheBTC** and **zheETH** (pegged tokens) and their corresponding steamed leverage tokens, all using **fxSAVE** and/or wstETH as collateral
 - Set up both types of stability pools
-- Enable yield generation from stETH
 
 ## 2. Rapid Market Expansion (Short Term)
 
@@ -44,10 +45,10 @@ Immediately after launch, Zhenglong will focus on deploying multiple new markets
 
 ### Target Asset Types
 
-- **Crypto synths**: zheBTC, zheETH, zheLDO, zheUNI, etc.
+- **Crypto synths**: zheUNI, zhetT-MC, zheUSDCBORROW etc.
 - **Real-world assets**: zheTSLA, zheXAU (gold), zheSPX
 - **Stablecoins and FX**: zheEUR, zheJPY, zheUSDYIELD
-- **Leveraged variations**: steamedBTC, steamedETH, etc.
+- **Custom markets**: External protocol defined markets.
 
 Each new market will include:
 
@@ -97,14 +98,7 @@ Zhenglong will evolve into a **market creation platform** — a place where anyo
 - A trusted price feed (Chainlink, Redstone, or custom TWAP)
 - A Stability Pool configuration
 
-### Deliverables
-
-- Web-based market creation UI
-- Permissionless factory contracts
-- Templates for volatile, inverse, or index synthetics
-- Custom market parameters
-
-This transforms Zhenglong from a protocol into infrastructure — empowering protocols and DAOs to create their own data-driven assets.
+This transforms Zhenglong from a protocol into infrastructure — empowering protocols and DAOs to create their own data-driven assets. Like a Uniswap for yield bearing and leveraged synthetic markets.
 
 ### Advanced Features
 

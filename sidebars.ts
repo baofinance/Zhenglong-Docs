@@ -3,9 +3,9 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
     {
-      type: "category",
-      label: "Introduction",
-      items: ["index", "getting-started"],
+      type: "doc",
+      id: "index",
+      label: "Intro",
     },
     {
       type: "category",
@@ -15,18 +15,24 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Core Features",
-      items: ["stability-pools", "genesis-vaults", "trading"],
+      items: [
+        "stability-pools",
+        { type: "doc", id: "yield", label: "How Yield is Generated" },
+        "genesis-vaults",
+      ],
     },
     {
       type: "category",
-      label: "Governance",
-      items: ["steam-token"],
+      label: "STEAM Token",
+      items: [
+        "steam-token/overview",
+        "steam-token/governance",
+        "steam-token/tokenomics",
+        "steam-token/earning",
+      ],
     },
-    {
-      type: "category",
-      label: "Reference",
-      items: ["api", "faq", "roadmap"],
-    },
+    "faq",
+    "roadmap",
   ],
 };
 
