@@ -30,7 +30,7 @@ Zhenglong is a synthetic asset protocol that transforms your favorite yield-bear
 
 For details on how Zhenglong achieves these high yields, see [How Yield is Generated](yield.md).
 
-For onboarding and step-by-step instructions, see the [Quick Start guide](getting-started.md).
+For detailed information, explore the sections below or start with our [Technical Overview](/technical-overview).
 
 ---
 
@@ -78,7 +78,7 @@ For onboarding and step-by-step instructions, see the [Quick Start guide](gettin
 - [Stability Pools](/stability-pools) - Learn about system security and yield
 - [How Yield is Generated](/yield) - Understand the yield concentration mechanism
 - [Genesis Vaults](/genesis-vaults) - How new markets are launched
-- [STEAM Token](/steam-token) - Governance and incentives
+- [STEAM Token](/steam-token/overview) - Governance and incentives
 - [Roadmap](/roadmap) - Protocol development plans
 - [FAQ](/faq) - Common questions and answers
 

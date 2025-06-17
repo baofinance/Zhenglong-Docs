@@ -145,4 +145,4 @@ We recognize that the path to achieving this vision may change as the crypto lan
 
 ### Resources
 
-- [Documentation](/getting-started)
+- [Documentation](/)
