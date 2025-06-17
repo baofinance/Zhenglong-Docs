@@ -6,7 +6,7 @@ const config: Config = {
   title: "Zhenglong",
   tagline:
     "Tokenize any market data. Earn yield and get protected leverage exposure.",
-  favicon: "./logo.svg",
+  favicon: "img/logo.svg",
 
   // Set the production url of your site here
   url: "https://docs.zhenglong.finance",
@@ -58,13 +58,13 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "./img/docusaurus-social-card.jpg",
-    favicon: "./logo.svg",
+    favicon: "img/logo.svg",
     navbar: {
       title: "Zhenglong",
       logo: {
         alt: "Zhenglong Logo",
-        src: "./logo.svg",
-        srcDark: "./logo.svg",
+        src: "img/logo.svg",
+        srcDark: "img/logo.svg",
         width: 40,
         height: 40,
       },

@@ -8,18 +8,18 @@ Zhenglong is built to reward long-term participation, decentralize governance, a
 
 **Total Supply:** 100,000,000 $STEAM
 
-| Category                  | Allocation | Vesting / Notes                                                                                            |
-| ------------------------- | ---------- | ---------------------------------------------------------------------------------------------------------- |
-| 🏦 Bao Treasury           | 25%        | Vested linearly over 24 months. Max locked as veSTEAM.                                                     |
-| 📦 Treasury Reserve       | 10%        | Vested linearly over 12 months. Protocol-controlled.                                                       |
-| 🤝 FX Protocol Allocation | 3%         | Vested linearly over 12 months. Max locked as veSTEAM.                                                     |
-| 🚀 IDO                    | 6%         | Fully liquid at TGE, distributed via community + public rounds.                                            |
-| 💧 Initial Liquidity      | 1%         | Deployed immediately on launch.                                                                            |
-| 🌱 Genesis Contributors   | 2%         | Rewards for launch genesis liquidity providers.                                                            |
-| 📣 Booster Program        | 3%         | Distributed over 3 years (0.27% TGE, 1% Y1, 1% Y2, 0.73% Y3).                                              |
-| 🧑‍💻 Founders               | 6%         | Vested linearly over 24 months.                                                                            |
-| 🌊 Protocol Incentives    | 39%        | 5M tokens distributed linearly in Year 1, then decaying 12.9% per year after. 100+ year emission schedule. |
-| 🎁 veBAO Airdrops         | 5%         | 500k tokens in Year 1, decreasing 10% annually. Similar schedule to protocol incentives                    |
+| Category                  | Allocation | Vesting / Notes                                                                                         |
+| ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------- |
+| 🏦 Bao Treasury           | 25%        | Vested linearly over 24 months. Max locked as veSTEAM.                                                  |
+| 📦 Treasury Reserve       | 10%        | Vested linearly over 12 months. Protocol-controlled.                                                    |
+| 🤝 FX Protocol Allocation | 3%         | Vested linearly over 12 months. Max locked as veSTEAM.                                                  |
+| 🚀 IDO                    | 6%         | Fully liquid at TGE, distributed via community + public rounds.                                         |
+| 💧 Initial Liquidity      | 1%         | Deployed immediately on launch.                                                                         |
+| 🌱 Genesis Contributors   | 2%         | Rewards for initial liquidity providers.                                                                |
+| 📣 Booster Program        | 3%         | Distributed over 3 years (0.27% TGE, 1% Y1, 1% Y2, 0.73% Y3).                                           |
+| 🧑‍💻 Founders               | 6%         | Vested linearly over 24 months.                                                                         |
+| 🌊 Protocol Incentives    | 39%        | 5M tokens distributed linearly in Year 1, then decaying 12.9% per year after. 100+ years to fully emit. |
+| 🎁 veBAO Airdrops         | 5%         | 500k tokens in Year 1, decreasing 10% annually. Similar schedule to protocol incentives                 |
 
 ---
 
@@ -65,4 +65,4 @@ The categories with immediate or early liquidity — IDO, Initial Liquidity, and
 
 _All values are linear unless stated otherwise. No cliffs. No surprise unlocks._
 
-![STEAM 5 Year Emissions](../img/tokenomics-cumulative-allocation.png)
+![STEAM 5 Year Emissions](../static/img/tokenomics-cumulative-allocation.png)

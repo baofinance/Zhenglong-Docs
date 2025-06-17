@@ -4,77 +4,53 @@ sidebar_position: 6
 
 # Protocol Fees
 
-Zhenglong: Supercharged Yield. Smarter Leverage. Fully Steamed.
+## Dynamic Fees: Built-In Market Regulation
 
-## Overview
+Zhenglong uses a real-time, responsive fee system for all mints and redemptions. It works like a pressure valve:
 
-Zhenglong Protocol implements a fee structure designed to ensure protocol sustainability while maintaining competitive rates for users. All fees are collected in the protocol's native currency and distributed to STEAM token holders and stability pool participants.
+- **Under normal conditions**, fees are low - maybe 0.25% for minting zheTOKENS and 1% for minting steamedTOKENS.
+- **If the system is at risk** (e.g., someone tries to mint a large amount of zheTOKENS), fees scale up in proportion to how much stress the action would cause.
+- **If the system needs help** - for example, to improve its collateral ratio - it can offer zero or even negative fees, essentially paying users to take helpful actions like minting steamedTOKENS.
 
-## Fee Types
+## Tiered Fee Structure
 
-### Minting Fees
+Fees are tiered: if a large transaction pushes the system past certain thresholds, higher fees apply to the portion that causes the most stress. This makes things fair - users only pay for the impact they actually cause.
 
-- **zheToken Minting**: 0.1% fee on minting zheTokens
-- **steamedToken Minting**: 0.2% fee on minting steamedTokens
-- **Collateral Deposit**: No fee for depositing collateral
+## Why It Works: A Feedback Loop That Balances Demand
 
-### Trading Fees
+This fee system creates a self-correcting market:
 
-- **AMM Trading**: 0.3% fee on all trades
-- **Stability Pool Swaps**: 0.1% fee on rebalancing operations
-- **Cross-chain Transfers**: 0.05% fee on omnichain transfers
+- **If everyone wants zheTOKENS**, it becomes increasingly expensive to mint zheTOKENS and cheaper to mint steamedTOKENS, encouraging balance.
+- **If everyone wants leverage**, the opposite happens - zheTOKENS minting becomes cheaper, drawing users to the stable side.
+- **Arbitrageurs and advanced users** will step in to exploit these dynamics, ensuring no imbalance goes unchecked.
 
-### Redemption Fees
+## System Integration
 
-- **zheToken Redemption**: 0.1% fee on redeeming zheTokens
-- **steamedToken Redemption**: 0.2% fee on redeeming steamedTokens
-- **Collateral Withdrawal**: No fee for withdrawing collateral
+Together with [Stability Pools](./stability-pools) (which manage ongoing systemic risk), the dynamic fee system helps Zhenglong maintain both flexibility and robustness. User behavior is steered gently - but powerfully - through financial incentives at the entry and exit points.
 
-## Fee Distribution
+## Key Benefits
 
-Fees collected by the protocol are distributed as follows:
+### Automatic Market Regulation
 
-- **Stability Pool Participants**: 40% of all fees
-- **STEAM Token Holders**: 40% of all fees
-- **Protocol Treasury**: 20% of all fees
+- Fees adjust in real-time based on system needs
+- No manual intervention required
+- Prevents extreme imbalances before they occur
 
-## Fee Benefits
+### Fair Pricing
 
-### For Stability Pool Participants
+- Users pay fees proportional to the stress they cause
+- Large transactions that push thresholds pay higher rates only on the excess
+- Small transactions remain affordable
 
-- Earn a share of all protocol fees
-- Boost your yield through fee distribution
-- Compound earnings automatically
+### Incentive Alignment
 
-### For STEAM Token Holders
+- The system can pay users to take beneficial actions
+- Negative fees reward behavior that improves system health
+- Market forces naturally maintain balance
 
-- Receive a portion of all protocol fees
-- Increase your share by locking tokens
-- Participate in fee governance
+## How It Affects You
 
-## Fee Governance
-
-STEAM token holders can vote on:
-
-- Fee rate adjustments
-- Fee distribution ratios
-- New fee types
-- Fee exemptions
-
-## Fee Transparency
-
-All fees are:
-
-- Clearly displayed before transactions
-- Tracked on-chain
-- Verifiable through the protocol's analytics
-- Distributed automatically
-
-## Fee Optimization
-
-To minimize fees:
-
-1. Use stability pools for large transactions
-2. Lock STEAM tokens to reduce trading fees
-3. Batch operations when possible
-4. Monitor fee rates through governance proposals
+- **Small transactions**: Minimal impact, low fees under normal conditions
+- **Large transactions**: Higher fees on portions that stress the system
+- **Beneficial actions**: Potential rewards when the system needs rebalancing
+- **Market timing**: Better rates available when acting counter to crowd behavior

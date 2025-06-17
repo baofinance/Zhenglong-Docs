@@ -9,17 +9,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Protocol",
+      label: "Protocol Overview",
       items: ["technical-overview", "architecture", "risk-considerations"],
     },
     {
       type: "category",
       label: "Core Features",
-      items: [
-        "stability-pools",
-        { type: "doc", id: "yield", label: "How Yield is Generated" },
-        "genesis-vaults",
-      ],
+      items: ["stability-pools", "yield", "genesis-vaults", "fees"],
     },
     {
       type: "category",
@@ -31,8 +27,16 @@ const sidebars: SidebarsConfig = {
         "steam-token/earning",
       ],
     },
-    "faq",
-    "roadmap",
+    {
+      type: "doc",
+      id: "faq",
+      label: "FAQ",
+    },
+    {
+      type: "doc",
+      id: "roadmap",
+      label: "Roadmap",
+    },
   ],
 };
 
