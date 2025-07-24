@@ -37,6 +37,11 @@ const sidebars: SidebarsConfig = {
       id: "roadmap",
       label: "Roadmap",
     },
+    {
+      type: "doc",
+      id: "brand-guidelines",
+      label: "Brand Guidelines",
+    },
   ],
 };
 
