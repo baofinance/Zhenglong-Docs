@@ -120,3 +120,16 @@
 .pagination-nav__sublabel {
   color: var(--ifm-color-primary);
 }
+
+/* Brand font styling */
+.navbar__title,
+.geo-font {
+  font-family: "Geo", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.zhenglong-brand {
+  font-family: "Geo", sans-serif !important;
+  font-weight: 400 !important;
+  color: #4a7c59 !important;
+}

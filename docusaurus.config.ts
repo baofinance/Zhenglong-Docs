@@ -55,6 +55,31 @@ const config: Config = {
     port: 3001,
   },
 
+  headTags: [
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.googleapis.com",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com",
+        crossorigin: "anonymous",
+      },
+    },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Geo:wght@400&family=Space+Grotesk:wght@300;400;500;600;700&display=swap",
+      },
+    },
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "./img/docusaurus-social-card.jpg",
